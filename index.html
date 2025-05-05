@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Ariful Islam</h1> 
+        <img src="Ariful.jpg" alt="Ariful Islam" id= "imageA"> <br> <br>
+        <nav>
+            <button title="Home"><a href="#">Home</a></button>
+            <button><a href="#">About me</a></button>
+            <button><a href="#">Certificates</a></button>
+            <button><a href="#">Services</a></button>
+            <button><a href="#">Contact</a></button>
+        </nav>
+    </header>
+    <hr>
+    <h3 id="h">Login Form</h3>
+    <form action="example.php" method="post">
+        <br>
+        <label for="username">Username: </label>
+        <input type="test" id="username" placeholder="Enter your name" minrequired="5" required >
+        <label for="password">Password: </label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        <br>
+        <br>
+        <label for="email" > Email: </label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <label for="phone"> Phone: </label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+        <br>
+        <br>
+        <label for="birthdate"> Birthdate: </label>
+        <input type="date" id="birthdate" required>
+        
+        <label for="title" required>Title: </label>
+        <input type="radio" id="Mr." value="Mr." name="title" required >
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Ms." value="Ms." name="title" required>
+        <label for="Mr.">Ms.</label>
+        <input type="radio" id="PhD." value="PhD." name="title" required>
+        <label for="PhD.">PhD.</label>
+        <br>
+        <br>
+        <input type="Reset" id="reset">
+        <input type="Submit" id="submit">
+    </form>
+    <br>
+    <br>
+    <footer>
+        Author: Ariful Islam <br>
+        &copy; 2025 All rights reserved. <br>
+        <a id="F" href="#">GitHub</a> | <a id="F" href="#">LinkedIn</a> | <a id="F" href="#">Facebook</a> | <a id="F" href="#">Twitter</a> | <a id="F" href="#">Instagram</a> 
+    </footer>
+</body>
+</html>
