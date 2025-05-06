@@ -44,6 +44,9 @@ button:hover{
     border: 2px solid #fdfdfd;
     border-radius: 20px;
 }
+#division{
+    text-align: left;
+}
 body{
     text-align:center;
     color: #ebe6e6;
