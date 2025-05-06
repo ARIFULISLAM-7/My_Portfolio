@@ -12,6 +12,9 @@ header{
     height: 100px;
     border-radius: 20%;
     border: 2px solid #0048ff;
+    position: absolute;
+    top: 70px;
+    right: 20px;
 }
 a{
     text-decoration: none;
