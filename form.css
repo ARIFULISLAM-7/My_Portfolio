@@ -177,3 +177,9 @@ footer{
 #p5{
     text-align: left;
 }
+#description{
+    height: 150px;
+    width: 500px;
+    border-radius: 10px;
+    border: 2px solid #044bff;
+}
