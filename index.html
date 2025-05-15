@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(24, 24, 50);
+            color:aliceblue;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(58, 52, 134);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 15px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(161, 161, 228);
+            font-size: 1.2rem;
+        }
+        .left{
+            font-size: 1.8em;
+            text-align: left;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+            justify-content: center;
+        }
+        .firstsection > div{
+            width: 40%;
+        }
+        .leftsection{
+            font-size: 2rem;
+            margin: 80px 0px;    
+        }
+        .leftsection button{
+            font-family:'Times New Roman', Times, serif;
+            font-size: 15px;
+            padding: 12px;
+            background: #1b041b;
+            color: white;
+            border: 2px solid #2c2c85;
+            border-radius: 10px;
+        }
+        .leftsection button:hover{
+            background: #222c54;
+            color: white;
+            border: 2px solid #b3b3ce;
+            border-radius: 10px;
+        }
+        .rightsection img{
+            width: 75%;
+            height: 90%;
+            margin: 15px 15px;
+        }
+        .namecolor{
+            color: blueviolet;
+        }
+       
+        #element{
+            color: blueviolet;
+        }
+        main hr{
+            border: 0;
+            height: 1.2px;
+            background:rgb(101, 93, 223);
+            margin: 20px 25px;
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 70vh;
+        }
+        .secondsection h1{
+            font-size: 1.5rem;
+        }
+        .text-grey{
+            color: grey;
+        }
+        .secondsection .box{
+            background: rgb(247, 184, 184);
+            width: 100%;
+            height: 1.2px;
+            margin: 80px 0;
+            display: flex;
+        }
+        .secondsection .verticle{
+            background-color: rgb(247, 184, 184);
+            height: 39px;
+            width: 1px;
+            margin: 0px 120px;
+        }
+        .image-top{
+            width:75px;
+            position: relative;
+            top: -71px;
+            left: -25px;
+        }
+        .image-top2{
+            width:70px;
+            position: relative;
+            top: -70px;
+            left: -25px;
+        }
+        .image-top3{
+            width:70px;
+            position: relative;
+            top: -73px;
+            left: -25px;
+        }
+        .image-top4{
+            width:70px;
+            position: relative;
+            top: -74px;
+            left: -25px;
+        }
+        .vertical-title{
+            position: relative;
+            top: -35px;
+            width: 200px;
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: -20px;
+            width: 200px;
+            color: grey;
+            font-size: 12px;
+        }
+        footer{
+            background-color: rgb(14, 7, 57);
+            height: 110px;
+            justify-content: space-around;
+        }
+        .footer{
+            display:flex;
+            padding: 12px 10px;
+            justify-content: space-around;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer-rights{
+            text-align: center;
+            justify-content: space-evenly;
+            padding: 0px 10px;
+        }
+        .footer-rights img {
+            height: 20px;
+            width: 20px;
+            padding: 0px 10px
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Ariful Islam</div>
+            <div class="right">
+                <ul>
+                    <li><a href="www.....">Home</a></li>
+                    <li><a href="www.....">About</a></li>
+                    <li><a href="www.....">Services</a></li>
+                    <li><a href="www.....">Projects</a></li>
+                    <li><a href="www.....">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi! I am <span class="namecolor">Ariful Islam</span>
+                <div>and I am a passionate </span><span id="element"></span>
+                 <div class="button">
+                    <button>Download Resume</button>
+                    <button>Visit GitHub</button>
+                </div>
+            </div>
+            </div>
+           
+            <div class="rightsection">
+                <img src="settings.png" alt="png/img">
+            </div>
+
+        </section>
+    <hr>
+        <section class="secondsection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="verticle">
+                    <img class="image-top" src="html.png" alt="png/jpeg/image">
+                    <div class="vertical-title">
+                        HTML Developer, 2024 - Present
+                    </div>
+                    <div class="vertical-desc">
+                        I have been contributing as a HTML Developer since 2024.
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top2" src="css (1).png" alt="png/jpeg/image">
+                    <div class="vertical-title">
+                        CSS Developer, 2024 - <br>Present
+                    </div>
+                    <div class="vertical-desc">
+                        I have been contributing as a CSS Developer since 2024.
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top3" src="python.png" alt="png/jpeg/image">
+                    <div class="vertical-title">
+                        Python Developer, 2024 - Present
+                    </div>
+                    <div class="vertical-desc">
+                        I have been contributing as a Python Developer since 2024.
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top4" src="github (1).png" alt="png/jpeg/image">
+                    <div class="vertical-title">
+                        GitHub Expert, 2024 - Present
+                    </div>
+                    <div class="vertical-desc">
+                        I have been working with github since 2024.
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Ariful's Developer Portfolio</h2>
+
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Certifications</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-fifth">
+                <ul>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Ariful Islam 
+            &copy; All rights reserved <br>
+            <img src="git.png" href=""> | <img src="linkdin.png">| <img src="twitter.png">
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer,', ' and Data Analyst.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
